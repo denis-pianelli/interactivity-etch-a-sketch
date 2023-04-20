@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/etch-a-sketch-favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="./img/etch-a-sketch-logo3.png" alt="etch a sketch logo">
+        </div>
+        <div class="content-container">
+            
+            <div class="left-container">
+                <div><p>Color:</p></div>
+                <input type="color" name="colorPicker" id="color-picker">
+                <button id="random-color-btn">
+                    <img src="./img/random-icon.png" alt="rainbow icon" width="" height="20">
+                    <strong class="button txt">Randomize</strong>
+                </button>
+                <div><p>Squares per side:</p></div>
+                <div id="grid-value" class="grid-value">16</div>
+                <input id="grid-range" type="range" value="16" min="16" max="100">
+                <button id="new-grid-btn">
+                    <img src="./img/grid-icon.png" alt="new grid icon" width="" height="20">
+                    <strong class="button txt">New grid</strong>
+                </button>
+            </div>
+            <div class="div-container"></div>
+            <div class="right-container">
+                <button id="eraser-btn">
+                    <img class="button icon" src="./img/eraser-icon.png" alt="eraser icon" width="" height="20">
+                    <strong class="button txt">Eraser</strong>
+                </button>
+                <button id="download-btn">
+                    <img class="button icon" src="./img/download-icon.png" alt="download icon" width="" height="20">
+                    <strong class="button txt">download</strong>
+                </button>
+            </div>
+        </div> 
+    </div>
+
+    <div class="footer">
+        <div>Copyright © Twoony 2023</div>
+        <ul class="wrapper">
+            <li class="icon github">
+                <span class="tooltip">Github</span>
+                <a href="https://github.com/Twoony" style="color: inherit;" target="_blank">
+                    <span><i class="fab fa-github fa-2x"></i></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./js/script.js"></script>
+</html>
