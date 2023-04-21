@@ -19,6 +19,10 @@ function setCurrentColor(newColor) {
         currentColor = newColor;
 }
 
+divContainer.addEventListener('contextmenu', function(e){
+    e.preventDefault();
+}, false);
+
 colorPicker.addEventListener('input', (e) => {
     setCurrentColor(e.target.value);
 })
