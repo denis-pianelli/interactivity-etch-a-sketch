@@ -7,7 +7,7 @@ Etch-A-Sketch is a web-based drawing application created using HTML, CSS, and Ja
 - [Contributing](#contributing)
 
 ## Usage
-To use the Etch-A-Sketch application, go to https://twoony.github.io/Etch-A-Sketch/ in your web browser. The Etch-A-Sketch canvas will appear on the screen. Move your cursor over the canvas to draw. To clear the canvas, click the "Clear" button. To download your drawing, click the "Download" button.
+To use the Etch-A-Sketch application, go to https://denispianelli.github.io/etch-a-sketch/ in your web browser. The Etch-A-Sketch canvas will appear on the screen. Move your cursor over the canvas to draw. To clear the canvas, click the "Clear" button. To download your drawing, click the "Download" button.
 
 ## Contributing
 Contributions to the Etch-A-Sketch project are welcome and encouraged. To contribute, please follow these steps:
