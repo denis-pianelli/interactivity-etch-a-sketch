@@ -1,20 +1,56 @@
-# Etch-A-Sketch
+# Etch-a-Sketch
 
-Etch-A-Sketch is a web-based drawing application created using HTML, CSS, and JavaScript. Users can draw on the Etch-A-Sketch by moving their cursor over the canvas, creating a line with the color and thickness of their choice. The Etch-A-Sketch can be cleared at any time, allowing the user to start over with a fresh canvas. Users can also download their drawing as a PNG image file.
+This project is an interactive Etch-a-Sketch web application that allows users to draw and customize their canvas using different modes such as color picking, random coloring, and erasing. It features a responsive grid system with adjustable grid sizes, a color picker, and the ability to download the created artwork.
 
-## Table of Contents
-- [Usage](#usage)
-- [Contributing](#contributing)
+## Table of contents
 
-## Usage
-To use the Etch-A-Sketch application, go to https://denispianelli.github.io/etch-a-sketch/ in your web browser. The Etch-A-Sketch canvas will appear on the screen. Move your cursor over the canvas to draw. To clear the canvas, click the "Clear" button. To download your drawing, click the "Download" button.
+- [Etch-a-Sketch](#etch-a-sketch)
+	- [Table of contents](#table-of-contents)
+	- [Overview](#overview)
+		- [Features](#features)
+		- [Screenshots](#screenshots)
+		- [Live Demo](#live-demo)
+	- [How to use](#how-to-use)
+	- [Built with](#built-with)
+	- [What I learned](#what-i-learned)
 
-## Contributing
-Contributions to the Etch-A-Sketch project are welcome and encouraged. To contribute, please follow these steps:
-1. Fork this repository.
-2. Create a new branch: `git checkout -b my-branch-name`
-3. Make your changes and commit them: `git commit -m "Add new feature"`
-4. Push your changes to your forked repository: `git push origin my-branch-name`
-5. Create a new pull request.
+## Overview
 
-I hope this README.md file is helpful in providing an overview of the Etch-A-Sketch project and how to use and contribute to it. Please let me know if you have any questions or suggestions for improvement.
+### Features
+
+- Draw on the canvas with the chosen color.
+- Toggle between color picker, random color, and eraser modes.
+- Adjust grid size for finer or larger details.
+- Download the created artwork as an image.
+
+### Screenshots
+
+![Etch-a-Sketch Screenshot](<img/Screenshot 2023-12-18 at 19-32-44 Etch-A-Sketch.png>)
+![Etch-a-Sketch Screenshot](<img/Screenshot 2023-12-18 at 19-37-13 Etch-A-Sketch.png>)
+
+### Live Demo
+
+[View live demo](https://denis-pianelli.github.io/interactivity-etch-a-sketch)
+
+## How to use
+
+1. Open the [live demo](https://denis-pianelli.github.io/interactivity-etch-a-sketch).
+2. Use the color picker to select a color.
+3. Choose between color picker, random color, and eraser modes.
+4. Adjust the grid size using the range slider.
+5. Click and drag on the canvas to draw or erase.
+6. Click the "Download" button to save your artwork as an image.
+
+## Built with
+
+- HTML5
+- CSS3 (Custom properties, Flexbox)
+- JavaScript
+- [Font Awesome](https://fontawesome.com/) (for icons)
+
+## What I learned
+
+- Implementing interactive features in a web application using JavaScript.
+- Handling mouse events for drawing and erasing functionality.
+- Dynamically creating and updating the grid based on user input.
+- Using the HTML canvas API to generate downloadable artwork images.
